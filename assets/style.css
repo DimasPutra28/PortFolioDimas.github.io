@@ -1,0 +1,70 @@
+.color {
+  background-color: #f1efef #ccc8aa #7d7c7c #191717;
+}
+
+body {
+  background-color: #7d7c7c;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  min-height: 9909px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 270px;
+  height: 100%;
+  background-color: #191717;
+  color: #ccc8aa;
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.sidebar .sidelogo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; /* aspek rasio gambar */
+  border: 2px solid #ccc8aa;
+}
+
+.sidebar .sideicon {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+}
+.sidebar .sideicon .icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+}
+
+.sidebar h3 {
+  margin: 10px;
+  padding: 10px 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 40px;
+}
+
+.sidebar ul li {
+  padding: 15px;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  color: #ccc8aa;
+  text-decoration: none;
+  display: block;
+}
